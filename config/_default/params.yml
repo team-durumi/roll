@@ -1,11 +1,13 @@
-title: My cool site
-description: Text about my cool site
+title: 기록 관리 연구
+description: 기록 관리 연구 정리
 images:
   - site-feature-image.jpg
 
 license:
-  title_of_work: This website
-  link_to_work: URL
-  createor_of_work: NAME
-  link_to_creator_profile: URL
+  title_of_work: 이 웹사이트
+  link_to_work: https://github.com/team-durumi/roll
+  createor_of_work: team-durumi
+  link_to_creator_profile: https://github.com/team-durumi/
   year_of_creation: 2021
+
+themeNoPipe: true

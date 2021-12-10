@@ -1,8 +1,8 @@
-# Update the NODE_VERSION arg in docker-compose.yml to pick a Node version: 10, 12, 14
+# Update the NODE_VERSION arg in docker-compose.yml to pick a Node version: 10, 12, 16
 # [Choice] Go version: 1, 1.16, 1.17
 FROM mcr.microsoft.com/vscode/devcontainers/go:0-1
 
-ARG NODE_VERSION="14"
+ARG NODE_VERSION="16"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
 ARG VERSION=latest
